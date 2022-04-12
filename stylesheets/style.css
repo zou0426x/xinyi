@@ -1,0 +1,19 @@
+@charset "UTF-8";
+a.card:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 560px) {
+  #carouselExampleControls h1 {
+    font-size: 2rem;
+  }
+  #carouselExampleControls .btn {
+    margin-top: 0 !important;
+  }
+}
+
+.news-list li::before {
+  content: "・";
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
